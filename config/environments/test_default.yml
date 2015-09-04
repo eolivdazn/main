@@ -1,0 +1,6 @@
+base_url: http://puppies.herokuapp.com
+
+admin:
+ username: admin2
+ password: password
+ 

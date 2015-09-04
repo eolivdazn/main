@@ -1,0 +1,2 @@
+default: FIG_NEWTON_FILE=local.yml --no-source --color --format pretty
+heroku:  FIG_NEWTON_FILE=heroku.yml --no-source --color --format pretty
