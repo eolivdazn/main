@@ -10,9 +10,9 @@ Given I am on the puppy adoption site
 
 
 Scenario: Verify message when adoption is processed
-#Given I have a pending adoption for "Tom Jones"
+Given I have a pending adoption for "Tom Jones"
 When I process that adoption
-Then I should see "Please thank"
+Then I should see "Please thank Tom Jones"
 
 #Scenario: Thank you message should be displayed
 #When I complete the adoption of a puppy

@@ -16,7 +16,7 @@ class CheckoutPage
 	#Load YML
 	DataMagic.load('data.yml')
 
-#DEFAULT_DATA = {
+	#DEFAULT_DATA = {
 	#			'name' => 'cheezy',
 	#			'address' => '123 Main Street',
 	#			'email' => 'cheezy@example.com',
@@ -26,8 +26,7 @@ class CheckoutPage
 	def checkout(data = {})
 		#populate_page_with DEFAULT_DATA.merge(data)
 		populate_page_with data_for(:checkout_page, data)
-		place_order
-		error_messages
+		place_order	
 	end
 
 
