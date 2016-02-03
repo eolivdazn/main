@@ -18,7 +18,7 @@ class ShoppingCartPage
 	end
 
 	def proceed_to_checkout
-		additional_products collar
+		additional_products 
 		proceed_to_checkout_element.when_visible.click
 	end
 
