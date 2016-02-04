@@ -1,15 +1,5 @@
-version: "{build}"
-
-# This will build all PRs targetting matching branches.
-# Without this, each PR builds twice -- once for the PR branch HEAD,
-# and once for the merge commit that github creates for each mergable PR.
-branches:
-  only:
-    - puppies-v2-BS
-
-# Disable normal Windows builds in favor of our test script.
+version: 1.0.{build}
 build: off
-
 install:
   - SET PATH=C:\Ruby21\bin;%PATH%
   - ruby --version
@@ -19,13 +9,3 @@ install:
   - bundle install
   - cinst ansicon
 
-test_script:
-  - rake username=edu161 key=w6ZgKtUCziNu5fzV4RNa
-
-environment:
-  matrix:
-    - ruby_version: '18'
-    - ruby_version: '19'
-    - ruby_version: '20'
-    - ruby_version: '21'
-    - ruby_version: '22'
