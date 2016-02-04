@@ -1,3 +1,4 @@
-version: "{build}"
-install: bundle install
+install:
+  - gem update --system
+  - gem bundle install
 
