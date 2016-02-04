@@ -1,7 +1,3 @@
 version: "{build}"
-install:
-  - ruby --version
-  - gem update --system --no-ri --no-rdoc
-  - gem install bundler --no-document
-  - bundle install
+install: bundle install
 
