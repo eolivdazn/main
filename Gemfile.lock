@@ -55,6 +55,7 @@ GEM
       watir-webdriver (>= 0.6.11)
     page_navigation (0.9)
       data_magic (>= 0.14)
+    parallel (1.6.1)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -100,6 +101,7 @@ DEPENDENCIES
   faker
   fig_newton
   page-object
+  parallel
   rake
   require_all
   rspec

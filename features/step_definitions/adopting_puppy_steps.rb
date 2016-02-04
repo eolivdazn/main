@@ -1,6 +1,6 @@
 Given(/^I am on the puppy adoption site$/) do
   visit_page(HomePage)
-  fail unless @browser.current_url.should include "http://puppies.herokuapp.com" 
+  fail unless @browser.current_url.should include "http://puppies.herokuapp.com2"
 end
 
 

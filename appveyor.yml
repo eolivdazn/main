@@ -1,4 +1,10 @@
-install:
-- cmd: bundle install
 
+install:
+  - SET PATH=C:\Ruby21\bin;%PATH%
+  - ruby --version
+  - gem --version
+  - gem install bundler
+  - bundler --version
+  - bundle install
+  - cinst ansicon
 
