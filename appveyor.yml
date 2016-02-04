@@ -20,7 +20,7 @@ install:
   - cinst ansicon
 
 test_script:
-  - bundle exec rake test --trace
+  - rake username=edu161 key=w6ZgKtUCziNu5fzV4RNa
 
 environment:
   matrix:
