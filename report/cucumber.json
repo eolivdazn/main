@@ -1,0 +1,82 @@
+[
+  {
+    "uri": "features/adopting_puppies.feature",
+    "id": "adopting-puppies",
+    "keyword": "Feature",
+    "name": "Adopting puppies",
+    "description": "As a puppy lover\nI want to adopt puppies\nSo they can chew my furniture",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 7,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.6.2/lib/capybara/cucumber.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.6.2/lib/capybara/cucumber.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the puppy adoption site",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/adopting_puppy_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3659217000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 255163000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.6.2/lib/capybara/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

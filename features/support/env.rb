@@ -5,6 +5,7 @@ require 'data_magic'
 require 'require_all'
 require 'fig_newton'
 require 'capybara'
+require 'selenium/webdriver'
 
 #Dir[File.dirname(__FILE__) + '/../libs/**/*.rb'].each {|file| require file } # require all libs from corelib
 #FigNewton.load('heroku.yml') -> move to cucumber
@@ -21,4 +22,6 @@ PageObject::PageFactory.routes = {
 
 
 World(PageObject::PageFactory)
+
+
 
