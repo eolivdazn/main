@@ -1,10 +1,7 @@
-build: off
+version: "{build}"
 install:
-  - SET PATH=C:\Ruby21\bin;%PATH%
   - ruby --version
-  - gem --version
-  - gem install bundler
-  - bundler --version
+  - gem update --system --no-ri --no-rdoc
+  - gem install bundler --no-document
   - bundle install
-  - cinst ansicon
 
