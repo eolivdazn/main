@@ -1,4 +1,4 @@
 install:
-  - gem update --system
-  - gem bundle install
+- cmd: bundle install
+
 
