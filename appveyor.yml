@@ -7,4 +7,5 @@ install:
   - bundler --version
   - bundle install
   - cinst ansicon
+  - rake username=edu161 key=w6ZgKtUCziNu5fzV4RNa
 
