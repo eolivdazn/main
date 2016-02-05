@@ -1,11 +1,13 @@
+version: 1.0.{build}
 
 install:
-  - SET PATH=C:\Ruby21\bin;%PATH%
-  - ruby --version
-  - gem --version
-  - gem install bundler
-  - bundler --version
-  - bundle install
-  - cinst ansicon
-  - rake username=edu161 key=w6ZgKtUCziNu5fzV4RNa
+- cmd: >-
+    SET PATH=C:\Ruby21\bin;%PATH%
 
+    bundle install
+
+build:
+  verbosity: minimal
+
+test_script:
+- cmd: rake username=edu161 key=w6ZgKtUCziNu5fzV4RNa
